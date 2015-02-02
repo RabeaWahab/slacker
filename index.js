@@ -177,11 +177,5 @@ Slack.prototype.message_delete = function(channel_id, timestamp){
 	return;	
 };
 
-// var slackinstance = new Slack();
-//slackinstance.message_post('C03H4BZPH', 'magboleh mnnk', 'joudeh', 'http://icons.iconarchive.com/icons/hopstarter/sleek-xp-software/256/Yahoo-Messenger-icon.png');
-//slackinstance.message_update('C03H4BZPH', '1422841482.000007', 'We can do that all day again');
-//slackinstance.message_delete('C03H4BZPH', '1422841831.000010');
-//slackinstance.channel_list();
-// slackinstance.channel_id('5amees');
 var slack = new Slack();
 module.exports = slack;
